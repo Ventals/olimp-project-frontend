@@ -3,7 +3,7 @@
 	</head>
 	<body>
 		<div class = "block1">
-			<p class = "logo">  </p>
+			<img class = "logo">
 			<div class = "buttons">
 				<button type = "button"> Вхід </button>
 				<button type = "button"> Реєстрація </button>
@@ -14,10 +14,10 @@
 				<p> Какой-то текст </p>
 			</div>
 			<img class = "image">
-			<a href = "#registrationFormBlock"> <img > </a>
+			<a href = "#block2"> <img > </a>
 		</div>
-		<div class = "block2">
-			<p class = "logo">  </p>
+		<div name = "block2" class = "block2">
+			<img class = "logo">
 			<div class = "buttons">
 				<button type = "button"> Вхід </button>
 				<button type = "button"> Реєстрація </button>
@@ -31,20 +31,20 @@
 			<a href = "#registrationFormBlock"> <img > </a>
 		</div>
 		<div class = "block3" name = "registrationFormBlock">
-			<p class = "logo">  </p>
+			<img class = "logo">
 			<div class = "buttons">
 				<button type = "button"> Вхід </button>
 				<button type = "button"> Реєстрація </button>
 			</div>
 			<div class = "registrationFormBlock"> 
 				<p> Щоб почати квест - увійдіть у свій аккаунт або зареєструйте новий</p>
-				<div = "registrationFormSwitchButtons">
+				<div class = "registrationFormSwitchButtons">
 					<button type = "button"> Вхід </button>
 					<button type = "button"> Реєстрація </button>
 				</div>
 				<form class = "registrationForm">
-					<input type = "text">
-					<input type = "password">
+					<input type = "text" placeholder = "Логін" name = "login" required>
+					<input type = "password" placeholder = "Пароль" name = "password" required>
 					<input type = "submit" value = "До квесту!">
 					<div class = "orLine">
 						<hr align = "center" width = "300">
