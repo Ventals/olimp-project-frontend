@@ -39,12 +39,37 @@
 .in {
 	display: block;
 	background-image: url("images/btn1.jpg");
+	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 2vw;
 	height: 2.3vw;
 	border-radius: 0.3vw;
 	margin-top: -0.3vw;
 }
+@media only screen and (max-width: 1100px) {
+ 	.in {
+ 		background-size: 90%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.in {
+ 		background-size: 70%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.in {
+ 		background-size: 60%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	.in {
+ 		background-size: 50%;
+ 		transition: 0.5s;
+ 	}
+ }
 .in:hover {
 	background-image: url("images/btn1h.jpg");
 	transition: 0.4s;
@@ -55,13 +80,38 @@
 .reg {
 	display: block;
 	background-image: url("images/btn2.jpg");
+	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 6vw;
 	height: 2.3vw;
 	border-radius: 0.3vw;
-	margin-left: 0.6vw;
+	margin-left: 4%;
 	margin-top: -0.3vw;
 }
+@media only screen and (max-width: 1100px) {
+ 	.reg {
+ 		background-size: 90%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.reg {
+ 		background-size: 80%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.reg {
+ 		background-size: 70%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	.reg {
+ 		background-size: 60%;
+ 		transition: 0.5s;
+ 	}
+ }
 .red:hover {
 	background-image: url("images/btn2h.jpg");
 	transition: 0.4s;
@@ -92,10 +142,35 @@
 	width: 2vw;
 	height: 4.9vw;
 	background-image: url("images/row.png");
-	background-size: 93%;
+	background-repeat: no-repeat;
+	background-size: 80%;
 	background-position: center;
 	position: fixed;
 } 
+@media only screen and (max-width: 1100px) {
+ 	.row {
+ 		background-size: 70%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.row {
+ 		background-size: 60%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.row {
+ 		background-size: 50%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	.row {
+ 		background-size: 40%;
+ 		transition: 0.5s;
+ 	}
+ }
 .row:hover {
 	background-image: url(images/rowh.png);
 	transition: 0.4s;
@@ -125,30 +200,105 @@
 	width: 13vw;
 	height: 1.7vw;
 	background-image: url("images/logo.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
 	float: left;
 	margin-left: -65vw;
 }
+@media only screen and (max-width: 1100px) {
+ 	.logo {
+ 		background-size: 80%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.logo {
+ 		background-size: 70%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.logo {
+ 		background-size: 60%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	.logo {
+ 		background-size: 50%;
+ 		transition: 0.5s;
+ 	}
+ }
 .img1 {
 	display: block;
 	width: 8vw;
-	height: 26.3vw;
+	height: 28vw;
 	background-image: url("images/human2.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
 	float: right;
 	margin-right: -30%;
 	margin-top: -40%;
 }
+@media only screen and (max-width: 1100px) {
+ 	.img1 {
+ 		background-size: 90%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.img1 {
+ 		background-size: 70%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.img1 {
+ 		background-size: 60%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	.img1 {
+ 		background-size: 50%;
+ 		transition: 0.5s;
+ 	}
+ }
 .img2 {
 	display: block;
 	width: 8vw;
-	height: 19vw;
+	height: 21vw;
 	background-image: url("images/human.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
 	float: right;
 	margin-right: -30%;
 	margin-top: -40%;
 }
+@media only screen and (max-width: 1100px) {
+ 	.img2 {
+ 		background-size: 90%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.img2 {
+ 		background-size: 70%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.img2 {
+ 		background-size: 60%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	.img2 {
+ 		background-size: 50%;
+ 		transition: 0.5s;
+ 	}
+ }
 .img1:hover {
 	transform: scale(1.1, 1.1);
 	transition: 0.5s;
@@ -180,8 +330,32 @@
 	position: absolute;
 	margin-top: -500%;
 	opacity: 0;
-	margin-left: 5vw;
+	margin-left: 45%;
 }
+@media only screen and (max-width: 1100px) {
+ 	.message {
+ 		margin-left: 30%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.message {
+ 		margin-left: 20%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.message {
+ 		margin-left: 10%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	.message {
+ 		margin-left: 0;
+ 		transition: 0.5s;
+ 	}
+ }
 .message1 {
 	display: block;
 	text-align: center;
@@ -195,8 +369,32 @@
 	position: absolute;
 	margin-top: -500%;
 	opacity: 0;
-	margin-left: 6vw;
+	margin-left: 55%;
 }
+@media only screen and (max-width: 1100px) {
+ 	.message1 {
+ 		margin-left: 30%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.message1 {
+ 		margin-left: 20%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.message1 {
+ 		margin-left: 10%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	 .message1 {
+ 		margin-left: 0;
+ 		transition: 0.5s;
+ 	}
+ }
 .registrationFormBlock {
 	width: 50%;
 	margin-left: 25%;
@@ -215,6 +413,7 @@
 }
 .registrationFormSwitchButtons label{
 	float: left;
+	width: 39%;
 }
 .registrationFormSwitchButtons {
 	margin-left: 17.5%;
@@ -245,17 +444,17 @@
 .in1 {
 	display: block;
 	background-image: url("images/in.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 13.2vw;
 	height: 3vw;
 }
 .reg1 {
 	display: block;
 	background-image: url("images/reg.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 13.2vw;
-	height: 3vw;
 	margin-left: 0.5vw;
+	height: 3vw;
 }
 .in1:hover {
 	background-image: url("images/inh.png");
@@ -276,12 +475,37 @@
 .go1 {
 	display: block;
 	background-image: url("images/quest.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 29.5vw;
+	width: 60%;
 	height: 3vw;
 	margin-left: 17.5%;
 	margin-top: -0.1vw;
 }
+@media only screen and (max-width: 1100px) {
+ 	.go1 {
+ 		width: 58%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.go1 {
+ 		width: 56%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.go1 {
+ 		width: 52%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	.go1 {
+ 		width: 47%;
+ 		transition: 0.5s;
+ 	}
+ }
 .go1:hover {
 	background-image: url("images/questh.png");
 	transition: 0.4s;
@@ -292,6 +516,7 @@
 .orline {
 	display: block;
 	background-image: url("images/formborder.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
 	width: 32vw;
 	height: 0.8vw;
@@ -312,6 +537,7 @@
 }
 .fb {
 	background-image: url("images/fb.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
 }
 .fb:hover {
@@ -323,6 +549,7 @@
 }
 .tw {
 	background-image: url("images/tw.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
 }
 .tw:hover {
@@ -335,6 +562,7 @@
 
 .goo {
 	background-image: url("images/goog.png");
+	background-repeat: no-repeat;
 	background-size: 100%;
 }
 .goo:hover {
@@ -369,12 +597,37 @@
 	height: 3.5vw;
 	width: 1vw;
 	background-image: url("images/regbtnp.png");
+	background-repeat: no-repeat;
 	background-size: 99%;
 	position: absolute;
 	margin-top: 1.5vw;
 	margin-left: -500%;
 	transition: 0.5s;
 }
+@media only screen and (max-width: 1100px) {
+ 	.out {
+ 		background-size: 80%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 940px) {
+ 	.out {
+ 		background-size: 70%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 720px) {
+ 	.out {
+ 		background-size: 60%;
+ 		transition: 0.5s;
+ 	}
+ }
+@media only screen and (max-width: 480px) {
+ 	.out {
+ 		background-size: 50%;
+ 		transition: 0.5s;
+ 	}
+ }
 .out:hover {
 	background-image: url("images/regbtnh.png");
 	transition: 0.4s;
