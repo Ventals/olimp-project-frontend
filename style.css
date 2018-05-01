@@ -1,8 +1,11 @@
+* {
+	box-sizing: border-box;
+}
 .block1 {
 	background-image: url("images/back1.jpg");
 	background-size: 100%;
 	width: 101%;
-	height: 37vw;
+	height: 50vw;
 	margin-top: -1vw;
 	margin-left: -0.5vw;
 	padding-top: 13vw;
@@ -11,7 +14,7 @@
 	background-image: url("images/back3.jpg");
 	background-size: 100%;
 	width: 101%;
-	height: 37vw;
+	height: 50vw;
 	margin-left: -0.5vw;
 	padding-top: 13vw;
 }
@@ -19,57 +22,30 @@
 	background-image: url("images/back2.jpg");
 	background-size: 100%;
 	width: 101%;
-	height: 45vw;
+	height: 50vw;
 	padding-top: 5vw;
 	margin-left: -0.5vw;
 }
 .buttons {
-	width: 30%;
-	height: 3vw;
+	width: 100%;
+	height: 3.4vw;
 	padding-left: 70%;
-	border-bottom: 0.1vw solid white;
 	position: fixed;
 	top: 0;
 }
 .buttons li {
 	list-style: none;
 	float: left;
-	margin-top: 1vw;
 }
 .in {
 	display: block;
 	background-image: url("images/btn1.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 2vw;
+	width: 5vw;
 	height: 2.3vw;
 	border-radius: 0.3vw;
-	margin-top: -0.3vw;
 }
-@media only screen and (max-width: 1100px) {
- 	.in {
- 		background-size: 90%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 940px) {
- 	.in {
- 		background-size: 70%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 720px) {
- 	.in {
- 		background-size: 60%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 480px) {
- 	.in {
- 		background-size: 50%;
- 		transition: 0.5s;
- 	}
- }
 .in:hover {
 	background-image: url("images/btn1h.jpg");
 	transition: 0.4s;
@@ -82,36 +58,11 @@
 	background-image: url("images/btn2.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 6vw;
+	width: 10vw;
 	height: 2.3vw;
 	border-radius: 0.3vw;
 	margin-left: 4%;
-	margin-top: -0.3vw;
 }
-@media only screen and (max-width: 1100px) {
- 	.reg {
- 		background-size: 90%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 940px) {
- 	.reg {
- 		background-size: 80%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 720px) {
- 	.reg {
- 		background-size: 70%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 480px) {
- 	.reg {
- 		background-size: 60%;
- 		transition: 0.5s;
- 	}
- }
 .red:hover {
 	background-image: url("images/btn2h.jpg");
 	transition: 0.4s;
@@ -143,31 +94,31 @@
 	height: 4.9vw;
 	background-image: url("images/row.png");
 	background-repeat: no-repeat;
-	background-size: 80%;
+	background-size: 110%;
 	background-position: center;
 	position: fixed;
 } 
 @media only screen and (max-width: 1100px) {
  	.row {
- 		background-size: 70%;
+ 		background-size: 100%;
  		transition: 0.5s;
  	}
  }
 @media only screen and (max-width: 940px) {
  	.row {
- 		background-size: 60%;
+ 		background-size: 90%;
  		transition: 0.5s;
  	}
  }
 @media only screen and (max-width: 720px) {
  	.row {
- 		background-size: 50%;
+ 		background-size: 70%;
  		transition: 0.5s;
  	}
  }
 @media only screen and (max-width: 480px) {
  	.row {
- 		background-size: 40%;
+ 		background-size: 55%;
  		transition: 0.5s;
  	}
  }
@@ -205,34 +156,10 @@
 	float: left;
 	margin-left: -65vw;
 }
-@media only screen and (max-width: 1100px) {
- 	.logo {
- 		background-size: 80%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 940px) {
- 	.logo {
- 		background-size: 70%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 720px) {
- 	.logo {
- 		background-size: 60%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 480px) {
- 	.logo {
- 		background-size: 50%;
- 		transition: 0.5s;
- 	}
- }
 .img1 {
 	display: block;
-	width: 8vw;
-	height: 28vw;
+	width: 10vw;
+	height: 32vw;
 	background-image: url("images/human2.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -240,34 +167,10 @@
 	margin-right: -30%;
 	margin-top: -40%;
 }
-@media only screen and (max-width: 1100px) {
- 	.img1 {
- 		background-size: 90%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 940px) {
- 	.img1 {
- 		background-size: 70%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 720px) {
- 	.img1 {
- 		background-size: 60%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 480px) {
- 	.img1 {
- 		background-size: 50%;
- 		transition: 0.5s;
- 	}
- }
 .img2 {
 	display: block;
-	width: 8vw;
-	height: 21vw;
+	width: 10vw;
+	height: 25vw;
 	background-image: url("images/human.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -275,30 +178,6 @@
 	margin-right: -30%;
 	margin-top: -40%;
 }
-@media only screen and (max-width: 1100px) {
- 	.img2 {
- 		background-size: 90%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 940px) {
- 	.img2 {
- 		background-size: 70%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 720px) {
- 	.img2 {
- 		background-size: 60%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 480px) {
- 	.img2 {
- 		background-size: 50%;
- 		transition: 0.5s;
- 	}
- }
 .img1:hover {
 	transform: scale(1.1, 1.1);
 	transition: 0.5s;
@@ -320,12 +199,12 @@
 .message {
 	display: block;
 	text-align: center;
-	width: 10vw;
+	width: 130%;
 	background-color: white;
 	color: gray;
 	font-family: Comic Sans MS;
 	font-size: 1vw;
-	padding: 2.5vw;
+	padding: 1vw;
 	border-radius: 6vw;
 	position: absolute;
 	margin-top: -500%;
@@ -359,12 +238,12 @@
 .message1 {
 	display: block;
 	text-align: center;
-	width: 13vw;
+	width: 170%;
 	background-color: white;
 	color: gray;
 	font-family: Comic Sans MS;
 	font-size: 1vw;
-	padding: 2.5vw;
+	padding: 1vw;
 	border-radius: 6vw;
 	position: absolute;
 	margin-top: -500%;
@@ -477,35 +356,11 @@
 	background-image: url("images/quest.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	width: 60%;
+	width: 65%;
 	height: 3vw;
 	margin-left: 17.5%;
 	margin-top: -0.1vw;
 }
-@media only screen and (max-width: 1100px) {
- 	.go1 {
- 		width: 58%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 940px) {
- 	.go1 {
- 		width: 56%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 720px) {
- 	.go1 {
- 		width: 52%;
- 		transition: 0.5s;
- 	}
- }
-@media only screen and (max-width: 480px) {
- 	.go1 {
- 		width: 47%;
- 		transition: 0.5s;
- 	}
- }
 .go1:hover {
 	background-image: url("images/questh.png");
 	transition: 0.4s;
